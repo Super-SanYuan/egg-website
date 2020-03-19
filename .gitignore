@@ -1,0 +1,11 @@
+# system
+.DS_Store
+
+# rely
+node_modules
+
+# build
+run
+
+# logs
+logs
