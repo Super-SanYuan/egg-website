@@ -170,10 +170,12 @@ nav ul li ul li {
 #myCarousel .carousel-control.left {
   background-image: none;
   left: -50%;
+  top: 50%;
 }
 #myCarousel .carousel-control.right {
   background-image: none;
   right: -50%;
+  top: 50%;
 }
 #myCarousel:hover .carousel-control.right {
   right: 0;
