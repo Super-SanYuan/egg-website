@@ -2,7 +2,7 @@ const Contorller = require('egg').Controller
 
 class HomeContorller extends Contorller {
   async index () {
-    this.ctx.body = 'Hi, fansi'
+    await this.ctx.render('index.html')
   }
 }
 

@@ -1,0 +1,51 @@
+﻿.diy_page,
+.diy_page2 {
+  font: 12px/21px Arial;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  color: #999;
+}
+.diy_page a img {
+  border: 0;
+}
+.diy_page a {
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #cccccc;
+  padding: 0 4px;
+  margin-right: 1px;
+}
+.diy_page a:hover {
+  color: #f00;
+  background: #cccccc;
+  text-decoration: none;
+}
+.diy_page a.current {
+  color: red;
+  border: 1px solid #cccccc;
+  background: #cccccc;
+}
+.diy_page a.p_n {
+  border: none;
+}
+.diy_page a.p_n:hover {
+  border: none;
+  background: none;
+  color: #f00;
+  text-decoration: underline;
+}
+.diy_page a.nob {
+  border: none;
+  padding: 0 3px;
+}
+.diy_page a.p_n2 {
+  border: none;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+.diy_page a.p_n2:hover {
+  border: none;
+  background: none;
+  border: 1px solid #ffbb55;
+}
