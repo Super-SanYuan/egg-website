@@ -1,11 +1,14 @@
-# system
+logs/
+npm-debug.log
+yarn-error.log
+node_modules/
+package-lock.json
+yarn.lock
+coverage/
+.idea/
+run/
 .DS_Store
-
-# rely
-node_modules
-
-# build
-run
-
-# logs
-logs
+*.sw*
+*.un~
+typings/
+.nyc_output/
